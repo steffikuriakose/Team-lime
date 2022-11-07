@@ -5,4 +5,4 @@ Team members-Steffi Kuriakose,Angela Moorcroft,Rebecca Richards,Adina Daniel
 Managed to create an interactive table using javascript, all code contained within index.html for now
 This is a rudimentary way of displaying the data, with open banking software you would be able to pull in the data directly from the source once the user has granted permission.  
 
-07/11/22 Added a folder with some cute lime svg images :)
+07/11/22 Added a folder with some cute lime svg images (from https://freesvg.org/)
