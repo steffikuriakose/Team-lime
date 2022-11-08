@@ -8,3 +8,4 @@ This is a rudimentary way of displaying the data, with open banking software you
 07/11/22 Added a folder with some cute lime svg images (from https://freesvg.org/)
 
 08/11/22 Created CSS file to format the page.  Updated index.html to assist formatting.  
+![image](https://user-images.githubusercontent.com/73331628/200640668-d3cd3a37-d442-4537-9ddd-8bac48f7cf76.png)
