@@ -108,3 +108,18 @@ function addChatEntry(input, product) {
         botText.innerText = `${product}`;
     }, 2000);
 }
+
+function buttonSendText(sampleText) {
+    let userHtml = '<p class="userText"><span' + sampleText + '</span></p>';
+    $("#textInput").val("")
+    $("#chatbox").append(userHtml);
+    document.getElementById("chat-bar-bottom").scrollIntoView(true);
+}
+
+function sendButton() {
+    getResponse();
+}
+
+function heartButton() {
+    buttonSendText("Heart clicked!")
+}
