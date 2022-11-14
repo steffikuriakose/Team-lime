@@ -19,6 +19,10 @@
     border-bottom: none;
 }
 
+.nav-bar {
+    text-align: left;
+}
+
 .content {
     max-height: 0;
     overflow: hidden;
