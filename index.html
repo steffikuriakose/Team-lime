@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lime website</title>
+<!-- Nav bar -->
+    
+</head>
+<body>
+   
+    <div class="topnav">
+        <a href="#Home">Home</a>
+        <a href="#news">About</a>
+        <a href="#contact">xxx</a>
+        <a href="#about">xxx</a>
+        <a href="#Login" class="split">Login/Sign up</a>
+    </div>
+<!-- Code for header -->
+<div class="header">
+    <h1> A Touch Of Lime</h1>
+    <p><b>Let us, help you </b></p>
+  </div>
+<!-- Code for About section -->
+
+  <div class="header2">
+<h1> What is <em> A Touch Of Lime </em></h1>
+<p> A Touch of Lime is an organisation created to help you better manage
+    the cost of living crisis. <br> From tips and tricks, to our handy chatbox containing a multitude of features including: current deals and offers at a variety of supermarkets, tracking your monthly energy consumption, an analysis of your transactions and potential ways in which you can dave money and a recipe budgeting calculator. </p>
+
+<!-- Code for columns -->
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="https://img.freepik.com/free-vector/messaging-application-abstract-concept-illustration_335657-2231.jpg?w=1380&t=st=1668383642~exp=1668384242~hmac=22a42f04a1cf34f7a434e444bd9df5e260ead58cd6c158596a3c70cdb16e5798" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Chat with us</h2>
+              <p>Our friendly chat feature gives you useful information on how to make your money go futher. Ask us about the latest deals at your local supermarket.</p>
+              <p><button class="button">Chat with us</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            
+            <img src="https://img.freepik.com/free-vector/calculator-money_603843-1417.jpg?w=1380&t=st=1668381011~exp=1668381611~hmac=b7876e903922cd84ccf4c918621547501b0e230d9e026e8092a5f5cfa948bb72" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Finances</h2>
+              <p>Keep up to date with your latest transactions and see exactly where your money is going. We'll provide you with a summary on where you can make potential savings across the month.</p>
+              <p><button class="button">Learn more</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="https://img.freepik.com/free-vector/flat-design-delicious-sardine-illustration_23-2149007603.jpg?w=1380&t=st=1668383506~exp=1668384106~hmac=950904201d599473e2b4b179d4a5614de495dffc15de683ebd1c598dbb1839cc" alt="John" style="width:100%">
+            <div class="container">
+              <h2>Reducing food waste</h2>
+              <p>In the UK alone, 9.52 million tonnes of food gets thrown out per year. Learn more about the different ways in which you can save food and your money.</p>
+              <p><button class="button">Learn more</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <p>Copyright &copy; A Touch Of Lime 2022</p>
+      </footer>
+
+      <style>
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+
+        .header {
+        padding: 80px;
+        text-align: center;
+        background-image: url(./images/Gerald_G_Lime_variations_3.svg);
+         color: white;
+         object-fit: fill;
+         font-family: 'Montserrat';
+         font-size: 38px;
+        backdrop-filter: 10%;
+        }
+
+        .header2 {
+        text-align: center;
+        }
+    
+ /* Nav bar */
+        .topnav {
+        background-color: rgba(247, 242, 242, 0.083);
+        overflow: hidden;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        z-index:1000;
+        }
+    
+        .topnav a {
+        float: left;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        
+        }
+    
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+    
+    
+    .topnav a.split {
+        float: right;
+        background-color: #a4a4a4c9;
+        color: white;
+        font-weight: bold;
+        }
+        </style>
