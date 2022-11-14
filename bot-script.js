@@ -13,14 +13,14 @@ const entries = [
     ["how are you", "how is life", "how are things"], //0
     ["hi", "hey", "hello", "good morning", "good afternoon"], //1
     ["what are you doing", "what is going on", "what is up"], //2
-    ["energy advice", "energy deals", "switch energy provider", "switch energy company"], //3
-    ["christmas deals", "x-mas deals", "christmas discounts", "x-mas discounts", "christmas shopping"], //4
+    ["energy advice", "energy deals", "switch energy provider", "switch energy company", "energy"], //3
+    ["christmas deals", "x-mas deals", "christmas discounts", "x-mas discounts", "christmas shopping", "christmas", "x-mas"], //4
     ["rock"], //5
     ["paper"], //6
     ["scissors"], //7
-    ["food deals", "food shopping", "food discounts", "food coupons"], //8
-    ["car deals", "car insurance"], //9
-    ["toy deals", "toys", "cheap toys"], //10
+    ["food deals", "food shopping", "food discounts", "food coupons", "food"], //8
+    ["car deals", "car insurance", "car"], //9
+    ["toy deals", "toys", "cheap toys", "toys"], //10
     ["mortgage","mortgage deals", "refinance", "refinance mortgage"] //11
 
 ];
