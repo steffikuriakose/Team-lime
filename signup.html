@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title> <!--Title of Signup form -->
+    <link rel="stylesheet" href="signup.css"><!--Add CSS file-->
+    <link rel="stylesheet" href="bot-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="container"><!--Style of body -->
+        <div class="header">
+            
+            <h2 class="Signup"> Signup Form</h2><!--Heading -->
+        </div>
+        <form action="login.html" class="form" method="GET"><!-- Action-Move to login when submitted -->
+            <div class="form-control">
+                <label for="username" class="username" name="username">Username</label><!-- Add user name -->
+                <input id="txtUserName" type="text" name="username"/>
+                <small>Error Message</small><!-- Error Message appear-->
+            </div>
+            <div class="form-control">
+                <label for="email" class="email" name="email">Email</label>
+                <input id= "txtEmail" type="email" name="email"/>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="pwd" class="pwd" name="username">Password</label>
+                <input id="txtPwd" type="password" name="username"/>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="conpwd" class="conpwd" name="conpwd">Confirm Password</label>
+                <input id="txtConPwd"type="password" name="conpwd"/>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <button type="submit"class="submit"> Submit </button>
+                <a href="login.html" id="linkLogin"> Already have an account? Sign in</a> <!-- Already have an account Go to Login file -->
+            </div>
+        </form>
+    </div>
+        <!-- CHAT BAR BLOCK -->
+        <div class="chat-bar-collapsible">
+            <button id="chat-button" type="button" class="collapsible">Take Our Quiz!
+                <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+            </button>
+    
+            <div class="content">
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div id="messages">
+                                <h5 id="chat-timestamp"></h5>
+                                <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                            </div>
+    
+                            <!-- User input box -->
+                            <div class="chat-bar-input-block">
+                                <div id="userInput">
+                                    <input id="input" class="input-box" type="text" name="msg"
+                                        placeholder="Tap 'Enter' to send a message">
+                                    <p></p>
+                                </div>
+    
+                                <div class="chat-bar-icons">
+                                    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                        onclick="heartButton()"></i>
+                                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                        onclick="sendButton()"></i>
+                                </div>
+                            </div>
+    
+                            <div id="chat-bar-bottom">
+                                <p></p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div>
+        
+    
+    <script src="signup.js"></script><!-- Added Js file-->
+    <script src="chat.js"></script>
+    <script src=bot-script.js></script>
+    </body>
+</html>

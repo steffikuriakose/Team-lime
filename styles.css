@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/* colors from adobe palette Green Globe on Moss */
+:root {
+    --green-globe-1: #042940;
+    --green-globe-2: #005C53;
+    --green-globe-3: #a3c23e;
+    --green-globe-4: #DBF227;
+    --green-globe-5: #D6D58E;
+    --amazon-woman-1: #cef09d;
+    --background: #f4f6e2;
+}
+
+body {
+    background-color: var(--background);
+    /* background-repeat: no-repeat; */
+    /* background-size: 1000px; */
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+    /* flex-direction: row; */
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container .box-left {
+    /* background-color: #f1f1f1; */
+    width: 20%;
+    margin-right: 40px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "raleway";
+    background-image: url(./images/Gerald_G_Lime_variations_3.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  
+  .flex-container .box-centre {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    border-width: 10px;
+    border-color: #005C53;
+    border-radius: 20px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 20px;
+    font-family: "raleway";
+    /* overflow: hidden; */
+    /* box-shadow: #042940; */
+    box-shadow:20px 20px 40px 10px rgb(179, 178, 178)
+  }  
+  
+  .flex-container .box-right {
+    /* background-color: #f1f1f1; */
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 20px;
+    font-family: "raleway";
+    background-image: url(./images/Gerald_G_Lime_variations_3.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: scaleX(-1);
+  }
+
+  .flex-container .box-centre .display {
+    /* background-color: #005C53; */
+    /* width: 50%; */
+    padding: 10px;
+    color: var(--green-globe-1);
+    /* border-radius: 10px; */
+    /* border: #042940; */
+  }
+
+.flex-container thead {
+    background-color: var(--green-globe-2);
+    color: white;
+    /* width: 100%;
+    justify-content: center; */
+    /* border-radius: 10px; */
+    /* overflow: hidden; */
+    /* row-gap: 10px; */
+}
