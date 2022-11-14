@@ -1,7 +1,7 @@
 .header {
     padding: 80px;
     text-align: center;
-    background-image: url(https://torange.biz/photofxnew/1/HD/light-stained-blue-lemon-background-1829.jpg);
+    background-image: url(./images/Gerald_G_Lime_variations_3.svg);
     color: white;
     object-fit: fill;
     font-family: 'Montserrat';
@@ -45,12 +45,9 @@
     color: white;
     font-weight: bold;
 }
- /* Hero image */
+ 
 
  
-.banner {
-    background-image:
-        url(./images/Gerald_G_Lime_variations_3.svg);
-}
+
 
   
