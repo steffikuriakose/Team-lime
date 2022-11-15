@@ -2,7 +2,7 @@ body {
     margin: auto;
     width: 640px; 
     padding: 30px;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat';
     color: #2E475D;  
     background-image: url('lime2.jpeg');
   }
@@ -12,7 +12,7 @@ body {
   .heading h1 {
       font-size: 50px;
       font-weight: 600;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat";
       background-image: linear-gradient(to right, #3c709a 45%, #95da55);
       color: transparent;
       background-clip: text;
@@ -21,7 +21,7 @@ body {
     .heading h2 {
       font-size: 50px;
       font-weight: bolder;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat";
       background-image: linear-gradient(to right, #3c709a 45%, #2ab42a);
       color: transparent;
       background-clip: text;
@@ -31,7 +31,7 @@ body {
       font-weight: bolder;
       line-height: 200%;
       font: size 50px;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat";
     }
 
     
