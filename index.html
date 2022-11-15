@@ -37,8 +37,10 @@
     </div>
 <!-- Code for header -->
 <div class="header">
-  <h1> A Touch Of Lime</h1>
-  <p><b>Let us, help you </b></p>
+  <div class="header-box">
+    <h1> A Touch Of Lime</h1>
+    <p><b>Let us, help you </b></p>
+  </div>
 </div>
 <!-- Code for About section -->
 
@@ -177,15 +179,24 @@
       }
 
       .header {
-      padding: 80px;
+        height: 250px;
+        /* margin-bottom: 50px; */
+      /* padding: 80px; */
       text-align: center;
+      display: flex;
+      flex-direction: column;
       text-shadow:2px 2px #5a5757;
-      background-image: url(./images/Gerald_G_Lime_variations_3.svg);
+      background-image: url(./images/slices-freshly-cut-lime.jpg);
+      /* background-image: radial-gradient(); */
+      background-size: 130%;
+      background-position: center;
+      /* background-image: 500%; */
+      background-repeat: no-repeat;
        color: white;
-       object-fit: fill;
+       /* object-fit: fill; */
        font-family: 'Montserrat';
-       font-size: 38px;
-      backdrop-filter: 10%;
+       font-size: 30px;
+      /* backdrop-filter: 10%; */
       }
 
       .header2 {
