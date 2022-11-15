@@ -33,12 +33,11 @@ body {
     /* background-color: #f1f1f1; */
     width: 20%;
     margin-right: 40px;
-    margin-top: 40px;
-    text-align: left;
-    font-size: 20px;
-    font-family: "Montserrat";
-    background-image: url(./images/Gerald_G_Lime_variations_3.svg);
-    /* background-repeat: no-repeat; */
+    margin-top: 10px;
+    background-image: url(./images/saving-infographic-1.png.png);
+    background-size: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
     background-position: top;
   }
   
