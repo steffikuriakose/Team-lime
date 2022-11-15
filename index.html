@@ -55,7 +55,10 @@
           <div class="container">
             <h2>Chat with us</h2>
             <p>Our friendly chat feature gives you useful information on how to make your money go futher. Ask us about the latest deals at your local supermarket.</p>
-            <p><button class="button">Chat with us</button></p>
+            <!-- <p><button class="button">Chat with us</button></p> -->
+          </div>
+          <div class="button-container">
+          <button class="button">Chat with us</button>
           </div>
         </div>
       </div>
@@ -67,8 +70,10 @@
           <div class="container">
             <h2>Finances</h2>
             <p>Keep up to date with your latest transactions and see exactly where your money is going. We'll provide you with a summary on where you can make potential savings across the month.</p>
-            <p><button class="button">Learn more</button></p>
           </div>
+          <div class="button-container">
+            <button class="button">Learn more</button>
+            </div>
         </div>
       </div>
       
@@ -78,8 +83,10 @@
           <div class="container">
             <h2>Reducing food waste</h2>
             <p>In the UK alone, 9.52 million tonnes of food gets thrown out per year. Learn more about the different ways in which you can save food and your money.</p>
-            <p><button class="button">Learn more</button></p>
           </div>
+          <div class="button-container">
+            <button class="button">Learn more</button>
+            </div>
         </div>
       </div>
     </div>
@@ -103,10 +110,18 @@
         width: 33.3%;
         margin-bottom: 16px;
         padding: 0 8px;
-        /* display: flex;
-        flex-direction: row; */
+        display: flex; 
+        flex-direction: row; 
+        /* justify-content: space-between; */
       }
+
+      .row {
+        height: auto;
+        display: flex;
+        flex-direction: row;
       
+      }
+            
       @media screen and (max-width: 650px) {
         .column {
           width: 100%;
@@ -116,12 +131,24 @@
       
       .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        /* display: flex; */
-        /* flex-direction: row */
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
       }
       
       .container {
         padding: 0 16px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content:space-around ; */
+      }
+
+      .button-container {
+        margin-top: auto;
+        margin-bottom: 5%;
+        
+     
       }
       
       .container::after, .row::after {
@@ -133,18 +160,21 @@
       
       .button {
         border: none;
+        border-radius: 10px;
         outline: 0;
         display: inline-block;
         padding: 8px;
         color: white;
-        background-color: #000;
+        background-color: rgb(173, 233, 116);
         text-align: center;
         cursor: pointer;
-        width: 100%;
+        width: 90%;
+        /* text-shadow:1px 1px #5a5757 */
+        
       }
       
       .button:hover {
-        background-color: #555;
+        background-color: rgb(116, 157, 75);
       }
 
       .header {
