@@ -32,6 +32,7 @@ body {
   .flex-container .box-left {
     /* background-color: #f1f1f1; */
     width: 20%;
+    height: 800px;
     margin-right: 40px;
     margin-top: 10px;
     background-image: url(./images/saving-infographic-1.png.png);
@@ -61,6 +62,7 @@ body {
   .flex-container .box-right {
     /* background-color: #f1f1f1; */
     width: 20%;
+    height: 800px;
     margin-left: 40px;
     margin-top: 10px;
     background-size: 100%;
@@ -70,7 +72,7 @@ body {
     font-size: 20px;
     font-family: "Montserrat"; */
     background-image: url(./images/saving-infographic-2.png.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: top;
 
   }
