@@ -38,7 +38,7 @@ body {
     font-size: 20px;
     font-family: "Montserrat";
     background-image: url(./images/Gerald_G_Lime_variations_3.svg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: top;
   }
   
@@ -69,7 +69,7 @@ body {
     font-size: 20px;
     font-family: "Montserrat";
     background-image: url(./images/Gerald_G_Lime_variations_3.svg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: top;
     transform: scaleX(-1);
   }
@@ -92,3 +92,35 @@ body {
     /* overflow: hidden; */
     /* row-gap: 10px; */
 }
+
+/* Nav bar */
+.topnav {
+  background-color: rgba(247, 242, 242, 0.083);
+  overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  z-index:1000;
+  }
+
+  .topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  }
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+
+.topnav a.split {
+  float: right;
+  background-color: #a4a4a4c9;
+  color: white;
+  font-weight: bold;
+  }
