@@ -10,6 +10,11 @@ body {
     background-image: url('lime2.jpeg');
   }
   
+  .container {
+    width: 90%;
+    /* justify-content: center; */
+    margin-left: 50px;
+  }
   
   
   .heading h1 {
