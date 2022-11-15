@@ -13,3 +13,5 @@ This is a rudimentary way of displaying the data, with open banking software you
 12/11/22 Added homepage and log in page and lunched the site through github https://larryduff.github.io/Team-lime/index.html 
 
 14/11/22 Added homepage content from Adina, also added login and chatbot pages and links back to homepage
+
+15/11/22 Updated homepage. Ajusted CSS for homepage. Added nav bar & css to all pages
