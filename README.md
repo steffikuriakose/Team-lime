@@ -15,3 +15,4 @@ This is a rudimentary way of displaying the data, with open banking software you
 14/11/22 Added homepage content from Adina, also added login and chatbot pages and links back to homepage
 
 15/11/22 Updated homepage. Ajusted CSS for homepage. Added nav bar & css to all pages. Added new image to homepage header and reduce size a little
+![image](https://user-images.githubusercontent.com/73331628/201954545-4c67e649-a80d-4e09-ac13-f808519e8876.png)
