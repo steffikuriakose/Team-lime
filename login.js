@@ -1,9 +1,9 @@
 let userName=document.getElementById("txtUserName");// Get username by ID of username and stored in userName
-
+​
 let pwd=document.getElementById("txtPwd");// Get username by ID of pwd and stored in pwd
 let form=document.querySelector("form");// ADD an event when press button
-
-
+​
+​
 function loginvalidate()
 {
     if(userName.value.trim()===""){
@@ -22,7 +22,7 @@ function loginvalidate()
     event.preventDefault();// prevent default stopping
     loginvalidate();
 });
-
+​
 function onSuccess(input){
     let parent=input.parentElement;
     let messageEle=parent.querySelector("small");
@@ -37,5 +37,5 @@ function onError(input,message){
     messageEle.innerText=message;  
     parent.classList.add("error");// add error
     parent.classList.remove("success");// remove success
-
+​
 }
