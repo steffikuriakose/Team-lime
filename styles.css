@@ -21,9 +21,36 @@ body {
     
 }
 
+div.gallery {
+  margin: 20px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 2px solid rgb(151, 231, 84);
+}
+
+div.gallery img {
+  width: 100%;
+  padding: 5px;
+  height: 150px;
+  /* text-align: center; */
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
 .container-header {
   height: 250px;
   background-color: #005C53;
+  /* display: flex; */
+  /* justify-items: center; */
+  /* padding-left: 50px; */
+  /* opacity: 50%; */
 }
 
 .flex-container {
@@ -36,12 +63,13 @@ body {
   }
   
   .flex-container .box-left {
-    /* background-color: #f1f1f1; */
+    background-color: #005C53;
     width: 20%;
-    height: 800px;
+    /* height: 800px; */
+    border-radius: 20px;
     margin-right: 40px;
     margin-top: 10px;
-    background-image: url(./images/saving-infographic-1.png.png);
+    /* background-image: url(./images/saving-infographic-1.png.png); */
     background-size: 100%;
     object-fit: fill;
     background-repeat: no-repeat;
@@ -73,6 +101,7 @@ body {
     margin-top: 10px;
     background-size: 100%;
     object-fit: fill;
+    border-radius: 10px;
     /* text-align: right;
     line-height: 75px;
     font-size: 20px;
