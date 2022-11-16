@@ -21,6 +21,11 @@ body {
     
 }
 
+.container-header {
+  height: 200px;
+  background-color: #005C53;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
