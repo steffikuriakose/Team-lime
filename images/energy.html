@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/Sign up form</title>
+    <link rel="stylesheet" href="energy.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1> Slice of Lime introduce Smart energy meter feature  !</h1>
+            <h3> Our feature analyses your smart meter data shows you easy way to use less. 
+                It will gives you warnings when the consumption exceed a specific level.</h3>
+                    <img src="energy.jpg" alt="pic of energy meter">
+            <h2>How does our Smart energy meter feature works?</h2>
+            <h3> If the consumption in a day exceeds  average limits it gives amber warning, When it exceeds upper limit it gives red warning.<br>
+                If its in normal range it shows green .</h3>
+            <img src="warning.jpg"alt =" shows the warning sign">
+            <h3> An example to demonstrate its working</h3>
+        
+            <form action="index.html"class="form" method="GET"><!--  -->
+                <div class="form-control">
+                    <label for="current_cons" class="current_cons" name="current_cons"><strong>Current consumption</strong></label><!--Enter current consumption-->
+                    <input id="current_cons" type="text" name="current_cons"/><br>
+                    <small>Error Message</small>
+                    <br>
+                    
+                    <label for="avg_cons" class="avg_cons" name="avg_cons"><strong>Average consumption</strong></label><!--Enter Average consumption -->
+                    <input id="avg_cons" type="text" name="avg_cons"/>
+                    <small>Error Message</small>
+                    <br>
+                    <button type="submit" class="submit"><strong>Submit</strong> </button><!--Submit button-->
+                    <br>
+                    <h3> Gives you warning signal</h3>
+                    
+                </div>
+            </form>
+        </div>
+        <script src="energy.js"></script><!--Added JS file -->
+    </body>
+</html>
