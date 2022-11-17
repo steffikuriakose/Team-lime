@@ -25,7 +25,7 @@ div.gallery {
   margin: 20px;
   border: 2px solid #ccc;
   float: left;
-  width: 200px;
+  width: auto ;
 }
 
 div.gallery:hover {
@@ -34,8 +34,10 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
+  height: auto;
   padding: 5px;
-  height: 150px;
+  /* display: flex; */
+  /* height: 150px; */
   /* text-align: center; */
 }
 
@@ -67,7 +69,7 @@ div.desc {
     width: 20%;
     /* height: 800px; */
     border-radius: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 10px;
     /* background-image: url(./images/saving-infographic-1.png.png); */
     background-size: 100%;
@@ -94,19 +96,15 @@ div.desc {
   }  
   
   .flex-container .box-right {
-    /* background-color: #f1f1f1; */
+    background-color: #005C53;
     width: 20%;
-    height: 800px;
-    margin-left: 40px;
+    /* height: 800px; */
+    border-radius: 20px;
+    margin-left: 20px;
     margin-top: 10px;
+    /* background-image: url(./images/saving-infographic-1.png.png); */
     background-size: 100%;
     object-fit: fill;
-    border-radius: 10px;
-    /* text-align: right;
-    line-height: 75px;
-    font-size: 20px;
-    font-family: "Montserrat"; */
-    background-image: url(./images/saving-infographic-2.png.png);
     background-repeat: no-repeat;
     background-position: top;
 
