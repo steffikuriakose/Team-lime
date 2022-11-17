@@ -15,7 +15,7 @@ function validateInput()
    
             else if(email.value.trim()==="")// Check email is empty or not
                 {
-                    hide(userName);
+                   
                   onError(email,"Email cannot be empty");
                 } 
                     else if(!isValidEmail(email.value.trim()))// check format of email is correct or not
