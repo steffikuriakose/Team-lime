@@ -1,109 +1,290 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advice</title>
-    <link rel="stylesheet" href="./energy.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>advice</title>
+<!-- Nav bar -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bot-styles.css">
-    </head>
-    <body>
+</head>
+<body>
+   
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./transactions.html">Banking</a>
+        <a href="./gov-advice.html">Advice</a>
+        <a href="./energy.html">Energy</a>
+        <a href="./signup.html" class="split">Sign up</a>
+        <a href="./login.html" class="split">Log in</a>
+    </div>
+<!-- Code for header -->
+<!-- <div class="header">
+  <div class="header-box">
+    <h1> A Touch Of Lime</h1>
+    <p><b>Let us, help you </b></p>
+  </div>
+</div> -->
+<!-- Code for About section -->
 
-        <div class="topnav">
-            <a href="./index.html">Home</a>
-            <a href="./transactions.html">Banking</a>
-            <a href="./gov-advice.html">Advice</a>
-            <a href="./energy.html">Energy</a>
-            <a href="./signup.html" class="split">Sign up</a>
-            <a href="./login.html" class="split">Log in</a>
-            <!-- <a href="./bot-index.html" class="split">Chat with us!</a> -->
+<div class="header2">
+<h1> What help is available?</h1>
+<p> This page provides advice and money saving tips as well as links to other resources including government help </p>
+
+<!-- Code for columns -->
+  <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="./images/gov-laptop.png" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Government support</h2>
+            <p>All domestic energy customers in Great Britain will receive a £400 grant to help with the cost of their energy bills through the Energy Bill Support Scheme.<br>
+                Households liable for Council Tax in Bands A-D in England will also receive a £150 Council Tax rebate to help with the rising cost of bills</p>
+            <!-- <p><button class="button">Chat with us</button></p> -->
+          </div>
+          <div class="button-container">
+          <button class="button">Find out more at www.gov.uk</button>
+          </div>
         </div>
-        <div class="container">
-            <div class="heading">
-                <h2> Government Policies</h2>
-                <p> All domestic energy customers in Great Britain will receive a £400 grant to help with the cost of their energy bills through the Energy Bill Support Scheme.<br>
-                Households liable for Council Tax in Bands A-D in England will also receive a £150 Council Tax rebate to help with the rising cost of bills.</p>
-                <br>
-                
-        
-                <a href="https://www.gov.uk/government/publications/government-support-for-the-cost-of-living-factsheet/government-support-for-the-cost-of-living-factsheet">
-                    <strong>For reference:Visit UK government site</strong></a>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          
+          <img src="./images/citizens-advice.png" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>Debt management support</h2>
+            <p>The citizens advice bureau provides free support to get on top of debt as well as understanding the beneifts you're entitled to</p>
+          </div>
+          <div class="button-container">
+            <button class="button">Find out more at www.citizensadvice.org.uk</button>
+            </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <img src="./images/mse.png" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Consumer advice</h2>
+            <p>Martin Lewis' consumer advice website provides trustworthy advice about everything from shopping vouchers to mortgage deals</p>
+          </div>
+          <div class="button-container">
+            <button class="button">Find out more at www.moneysavingsexpert.com</button>
+            </div>
+        </div>
+      </div>
+    </div>
 
-                <h2>How we can survive the cost of living crisis?</h2>
-                <h3> 1. Look for cheaper insurance for home and car</h3>
-                <p>Compare costs from the wider market before auto-renewing with the same provider<br>
-                </p>
-                <h3> 2. Current account switching offers</h3>
-                <p>Check the different banking site to know what they offer<br>
-                </p>
-                <h3> 3. Find out if you are entitled to any benefits</h3>
-                <p>If you are working and have a child between age three and four, if you are elligible will get 30 hours free child care<br></p>
-                    <a href="https://www.gov.uk/30-hours-free-childcare"> <strong>30 Hours free child care</strong></a>
-            
-                <h2>Who can you contact for help?</h2>
-                <p>If you  can't afford household bills or repayments on debits contact the company and explain your situation.<br>
-                It may agree to reduce your payment for an agreed period of time or set up an payment plan.<br>
-                Energy companies may offer an afforadable payment plan or provide emergency credit to prepayment customers who can't afford to top up.
-                </p>
-                <form class="form" method="GET"><!-- Action-Move to home page when submitted -->
+    <h2>Who can you contact for help?</h2>
+    <p>If you  can't afford household bills or repayments on debits contact the company and explain your situation.<br>
+    They may agree to reduce your payment for an agreed period of time or set up an payment plan.<br>
+    Energy companies may offer an affordable payment plan or provide emergency credit to prepayment customers who can't afford to top up.<br>
+    <h4>For more information please contact us below</h4>
+    </p>
+
+    <form class="form" method="GET"><!-- Action-Move to home page when submitted -->
                     
-                        <label for="username" class="username" name="username"><strong>Enquiry</strong></label><!--Enter User name -->
-                        <input id="txtUserName" type="text" name="username"/>
-                        
-                            <button type="submit"><strong>Submit</strong></button><!--Submit button-->
-                        
-                
-                </form>
-            </div>
-        </div>
-    </body>
+        <label for="username" class="username" name="username"><strong>Enquiry</strong></label><!--Enter User name -->
+        <input id="txtUserName" type="text" name="username"/>
+        
+            <button type="submit"><strong>Submit</strong></button><!--Submit button-->
+        
+    </form>
 
-        <!-- CHAT BOT CODE -->
-        <div class="chat-bar-collapsible">
-            <button id="chat-button" type="button" class="collapsible">Ask About Deals!
-                <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
-            </button>
+    <!-- CHAT BOT CODE -->
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Ask About Deals!
+          <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="messages">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Looking for deals...</span></p>
+                      </div>
+
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="input" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                              <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                  onclick="heartButton()"></i>
+                              <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
+
+  <script src="chat.js"></script>
+  <script src=bot-script.js></script>
+
+
+    <footer>
+      <p>Copyright &copy; A Touch Of Lime 2022</p>
+    </footer>
+
+    <style>
+      html {
+        box-sizing: border-box;
+        font-family: 'Montserrat';
+        margin: auto;
+      }
       
-            <div class="content">
-                <div class="full-chat-block">
-                    <!-- Message Container -->
-                    <div class="outer-container">
-                        <div class="chat-container">
-                            <!-- Messages -->
-                            <div id="messages">
-                                <h5 id="chat-timestamp"></h5>
-                                <p id="botStarterMessage" class="botText"><span>Looking for deals...</span></p>
-                            </div>
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
       
-                            <!-- User input box -->
-                            <div class="chat-bar-input-block">
-                                <div id="userInput">
-                                    <input id="input" class="input-box" type="text" name="msg"
-                                        placeholder="Tap 'Enter' to send a message">
-                                    <p></p>
-                                </div>
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        display: flex; 
+        flex-direction: row; 
+        /* justify-content: space-between; */
+      }
+
+      .row {
+        height: auto;
+        display: flex;
+        flex-direction: row;
       
-                                <div class="chat-bar-icons">
-                                    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                                        onclick="heartButton()"></i>
-                                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
-                                        onclick="sendButton()"></i>
-                                </div>
-                            </div>
+      }
+            
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
       
-                            <div id="chat-bar-bottom">
-                                <p></p>
-                            </div>
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+      }
       
-                        </div>
-                    </div>
+      .container {
+        padding: 0 16px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content:space-around ; */
+      }
+
+      .button-container {
+        margin-top: auto;
+        margin-bottom: 5%;
+        
+     
+      }
       
-                </div>
-            </div>
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
       
-        </div>
       
-        <script src="chat.js"></script>
-        <script src=bot-script.js></script>
-</html>
+      .button {
+        border: none;
+        border-radius: 10px;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: rgb(173, 233, 116);
+        text-align: center;
+        cursor: pointer;
+        width: 90%;
+              
+      }
+      
+      .button:hover {
+        background-color: rgb(116, 157, 75);
+      }
+
+      .header {
+        height: 250px;
+        /* margin-bottom: 50px; */
+      /* padding: 80px; */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      text-shadow:2px 2px #5a5757;
+      background-image: url(./images/slices-freshly-cut-lime_reduced.jpg);
+      /* background-image: radial-gradient(); */
+      background-size: 130%;
+      background-position: center;
+      /* background-image: 500%; */
+      background-repeat: no-repeat;
+       color: white;
+       /* object-fit: fill; */
+       font-family: 'Montserrat';
+       font-size: 30px;
+      /* backdrop-filter: 10%; */
+      }
+
+      .header2 {
+      text-align: center;
+      }
+  
+/* Nav bar */
+      .topnav {
+      background-color: rgba(247, 242, 242, 0.083);
+      overflow: hidden;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      z-index:1000;
+      }
+  
+      .topnav a {
+      float: left;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      
+      }
+  
+
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+  
+  
+  .topnav a.split {
+      float: right;
+      background-color: #a4a4a4c9;
+      color: white;
+      font-weight: bold;
+      }
+      </style>
