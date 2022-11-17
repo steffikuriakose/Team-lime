@@ -16,3 +16,5 @@ This is a rudimentary way of displaying the data, with open banking software you
 
 15/11/22 Updated homepage. Ajusted CSS for homepage. Added nav bar & css to all pages. Added new image to homepage header and reduce size a little
 ![image](https://user-images.githubusercontent.com/73331628/201954545-4c67e649-a80d-4e09-ac13-f808519e8876.png)
+
+17/11/22 final touches to the site - updated the homepage to show images that represent the pages we have and added links.  Also changed fornat of the advice page to match the homepage and added relevant images and links. Updated the banking page to show a sidebar of buttons to show access to differet banking info (not active buttons but just to show how functionality could be added). Also right sidebar (empty) which could feature adds or more buttons
