@@ -3,7 +3,6 @@ let email=document.getElementById("txtEmail");// Get email by ID of email and st
 let pwd=document.getElementById("txtPwd");// Get pwd by ID of pwd and stored in pwd
 let conPwd=document.getElementById("txtConPwd");// Get pwd by ID of conpwd and stored in conpwd
 let form=document.querySelector("form");
-​
 function validateInput()
 {
     //check username is empty 
@@ -21,8 +20,7 @@ function validateInput()
                     else if(!isValidEmail(email.value.trim()))// check format of email is correct or not
                         {
                           onError(email,"Email is not valid");
-                        }   
-​
+                        }  
     
                         else if(pwd.value.trim()==="")// Check pwd is empty or not
                             {
