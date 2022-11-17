@@ -5,21 +5,14 @@
     box-sizing:border-box;
 }
 body {
-    /* margin: auto;
-    width: 640px;  */
-    /* padding: 10px; */
     font-family: 'Montserrat';
     color: #2E475D;  
-    /* background-image: url('lime2.jpeg'); */
   }
 .container
 {
     width: 400px;
     margin: auto;
-    /* margin-left: 100px;
-    margin-right: 100px; */
     margin-top: 100px;
-    /* position: absolute; */
     background-color: beige;
     border-radius: 4px;
     overflow: hidden;
