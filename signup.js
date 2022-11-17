@@ -3,7 +3,7 @@ let email=document.getElementById("txtEmail");// Get email by ID of email and st
 let pwd=document.getElementById("txtPwd");// Get pwd by ID of pwd and stored in pwd
 let conPwd=document.getElementById("txtConPwd");// Get pwd by ID of conpwd and stored in conpwd
 let form=document.querySelector("form");
-​
+
 function validateInput()
 {
     //check username is empty 
