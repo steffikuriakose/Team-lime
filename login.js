@@ -22,8 +22,8 @@ function loginvalidate()
     event.preventDefault();// prevent default stopping
     loginvalidate();
 });
-​
-function onSuccess(input){
+
+​function onSuccess(input){
     let parent=input.parentElement;
     let messageEle=parent.querySelector("small");
     messageEle.style.visibility="hidden"; // hide error message
