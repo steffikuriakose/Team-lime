@@ -37,7 +37,7 @@ padding: 20px 40px;
 }
 .form-control{
     margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     position:relative
 }
 .form-control label{
