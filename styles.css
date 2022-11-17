@@ -22,10 +22,13 @@ body {
 }
 
 div.gallery {
-  margin: 20px;
+  margin: 10%;
   border: 2px solid #ccc;
   float: left;
-  width: auto ;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 div.gallery:hover {
@@ -33,9 +36,17 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
-  padding: 5px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+
+  /* height: auto; */
+  /* justify-items: center; */
+  /* height: auto; */
+  /* display: grid; */
+  /* grid-row: auto; */
+  /* margin: 10%, 10%, 10%, 10%; */
   /* display: flex; */
   /* height: 150px; */
   /* text-align: center; */
@@ -67,7 +78,8 @@ div.desc {
   .flex-container .box-left {
     background-color: #005C53;
     width: 20%;
-    /* height: 800px; */
+    /* height: auto; */
+    /* height: 2000px; */
     border-radius: 20px;
     margin-right: 20px;
     margin-top: 10px;
