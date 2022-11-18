@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title> <!--Title of login form -->
+    <link rel="stylesheet" href="signup.css"><!-- Add link of CSS file-->
+    
+    </head>
+    <body>
+    <div class="container"><!--For style of  body -->
+        <div class="header"><!--For style of Header -->
+            <h2 class="login"> Login Form</h2><!--Title of header -->
+        </div>
+        <form action="index.html" class="form" method="GET"><!-- Action-Move to home page when submitted -->
+            <div class="form-control">
+                <label for="username" class="username" name="username">Username</label><!--Enter User name -->
+                <input id="txtUserName" type="text" name="username"/>
+                <small>Error Message</small><!-- Appear error message when user name is empty-->
+                
+            </div>
+            <div class="form-control"> 
+                
+                <label for="pwd"class="pwd" name="username">Password</label> <!--Enter Password -->
+                <input id="txtPwd" type="password" name="username"/>
+                <small>Error Message</small><!-- Appear error message password is empty-->
+            </div>
+            <div class="form-control">
+                <button type="submit">Submit</button><!--Submit button-->
+            </div>
+        </form>
+    </div>
+
+        
+    
+    <script src="login.js"></script><!--Added JS file -->
+    </body>
+</html>
